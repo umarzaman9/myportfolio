@@ -1,5 +1,7 @@
 .bAVzgZ {
 	display: flex;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto;
     width: 100%;
     margin: auto;
     justify-content:space-evenly;
@@ -8,8 +10,9 @@
 
 .kvSgCM {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: auto auto auto;
     padding: 6px 14px;
+    text-align: center;
     width: 260px;
     background: linear-gradient(
 270deg
